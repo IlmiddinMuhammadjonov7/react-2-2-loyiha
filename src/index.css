@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 60px 165px;
+}
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar h2:nth-child(1) {
+  color: var(--13183F, #13183f);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+}
+
+.navbar h2:last-child {
+  color: var(--13183F, #13183f);
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.4;
+  font-size: 36px;
+}
+
+.text{
+  color: var(--13183F, #13183f);
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.4;
+  font-size: 36px;
+  margin: 70px 0px 0px 0px;
+}
